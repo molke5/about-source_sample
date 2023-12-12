@@ -16,5 +16,8 @@ td {
     padding-bottom: 1rem;
     padding-right: 1rem;
     font-size: 1.5rem;
+}
+
+tr:nth-child(even) {
     color: #9e0120;
 }
