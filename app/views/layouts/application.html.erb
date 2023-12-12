@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>about:source</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <header>
+    <%= image_tag("/about-source.svg", :alt => "about:source", :size => "160x80") %>
+  </header>
+  <body>
+    <%= yield %>
+  </body>
+</html>

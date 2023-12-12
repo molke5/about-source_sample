@@ -1,0 +1,18 @@
+<table>
+	<tr>
+		<th colspan="2">Repositories</th>
+	</tr>
+
+  <% if @repos %>
+		<% @repos.each do |repo| %>
+			<tr>
+				<td><%= repo[:name] %></td>
+				<td><%= repo[:last_commit] %></td>
+			</tr>
+		<% end %>
+  <% else %>
+		<tr>
+			<td colspan="2">No repositories found</td>
+		</tr>
+  <% end %>
+</table>
