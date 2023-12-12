@@ -20,11 +20,9 @@ module ReposHelper
 			return nil if repo_name.blank?
 
 			commits = get_commits(repo_name)
+			updated = DateTime.parse(repo[:updated_at])
 
-			{
-				name: repo_name,
-				last_commit: get_last_commit(commits)
-			}
+			Repo.new(name: repo_name, last_commit: get_last_commit(commits), git_updated_at: updated)
 		end
 
 		def get_commits(repo_name)
