@@ -13,7 +13,7 @@
         "email": "noreply@github.com",
         "date": "2018-10-03T10:50:08Z"
       },
-      "message": "Merge pull request #46 from MadBomber/build-gem\n\nAdd gem tasks to main Rakefile",
+      "message": "Merge pull request #46",
       "tree": {
         "sha": "c5b614dd5a0f7fd60e2bacca7e9de9ab65e897be",
         "url": "https://api.github.com/repos/aboutsource/rdkafka-ruby/git/trees/c5b614dd5a0f7fd60e2bacca7e9de9ab65e897be"
