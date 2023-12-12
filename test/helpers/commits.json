@@ -1,0 +1,86 @@
+[
+  {
+    "sha": "b208788f1436cbd9d8bcba732cee4397a7d2b481",
+    "node_id": "MDY6Q29tbWl0MTUyMTM0MjczOmIyMDg3ODhmMTQzNmNiZDlkOGJjYmE3MzJjZWU0Mzk3YTdkMmI0ODE=",
+    "commit": {
+      "author": {
+        "name": "Thijs Cadier",
+        "email": "thijs@appsignal.com",
+        "date": "2018-10-03T10:50:08Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-10-03T10:50:08Z"
+      },
+      "message": "Merge pull request #46 from MadBomber/build-gem\n\nAdd gem tasks to main Rakefile",
+      "tree": {
+        "sha": "c5b614dd5a0f7fd60e2bacca7e9de9ab65e897be",
+        "url": "https://api.github.com/repos/aboutsource/rdkafka-ruby/git/trees/c5b614dd5a0f7fd60e2bacca7e9de9ab65e897be"
+      },
+      "url": "https://api.github.com/repos/aboutsource/rdkafka-ruby/git/commits/b208788f1436cbd9d8bcba732cee4397a7d2b481",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbtJ7gCRBK7hj4Ov3rIwAAdHIIADOZ376Xh/zDohN1Gi9WulMX\nJpqLu5+e7rIamK/2bRPGe5y56TzInCNTjNWB2TglUQGBY4P8RUJzQh6YX/EHzIB2\nVSDzsPm6UgmWajFjl8j5cs9DN43rLLWqlXue3gGCrEkQd2t8pqpZAYpyXP5UD5hR\nZ9ay2+IYbqeGdyMpd8l6Ujasv21EcHmbVszvpRmLx/6Zhcnu8zNk7iUzFMqMwMSV\neZ8cVDnQLd4NUwTLCOUWJESLJrWzg6+USju4+AgrABVBk1AdIdHmnJzqrIlz8Y5f\n3BJp9c2yphacotpGiiiLutjrzUc1QpsCAjA9+vqZpUCzL2s4s1fBLcYj2vYOiFc=\n=hExt\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c5b614dd5a0f7fd60e2bacca7e9de9ab65e897be\nparent 4a41887d68344df08a683b93582da5a503b97ffd\nparent d0a03833aa05e42b690c92ea25174858718f60fc\nauthor Thijs Cadier <thijs@appsignal.com> 1538563808 +0200\ncommitter GitHub <noreply@github.com> 1538563808 +0200\n\nMerge pull request #46 from MadBomber/build-gem\n\nAdd gem tasks to main Rakefile"
+      }
+    },
+    "url": "https://api.github.com/repos/aboutsource/rdkafka-ruby/commits/b208788f1436cbd9d8bcba732cee4397a7d2b481",
+    "html_url": "https://github.com/aboutsource/rdkafka-ruby/commit/b208788f1436cbd9d8bcba732cee4397a7d2b481",
+    "comments_url": "https://api.github.com/repos/aboutsource/rdkafka-ruby/commits/b208788f1436cbd9d8bcba732cee4397a7d2b481/comments",
+    "author": {
+      "login": "thijsc",
+      "id": 9794,
+      "node_id": "MDQ6VXNlcjk3OTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9794?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thijsc",
+      "html_url": "https://github.com/thijsc",
+      "followers_url": "https://api.github.com/users/thijsc/followers",
+      "following_url": "https://api.github.com/users/thijsc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thijsc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thijsc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thijsc/subscriptions",
+      "organizations_url": "https://api.github.com/users/thijsc/orgs",
+      "repos_url": "https://api.github.com/users/thijsc/repos",
+      "events_url": "https://api.github.com/users/thijsc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thijsc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4a41887d68344df08a683b93582da5a503b97ffd",
+        "url": "https://api.github.com/repos/aboutsource/rdkafka-ruby/commits/4a41887d68344df08a683b93582da5a503b97ffd",
+        "html_url": "https://github.com/aboutsource/rdkafka-ruby/commit/4a41887d68344df08a683b93582da5a503b97ffd"
+      },
+      {
+        "sha": "d0a03833aa05e42b690c92ea25174858718f60fc",
+        "url": "https://api.github.com/repos/aboutsource/rdkafka-ruby/commits/d0a03833aa05e42b690c92ea25174858718f60fc",
+        "html_url": "https://github.com/aboutsource/rdkafka-ruby/commit/d0a03833aa05e42b690c92ea25174858718f60fc"
+      }
+    ]
+  }
+]

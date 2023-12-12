@@ -9,10 +9,10 @@ rails 7.1.2
 run:
 ```
 $ bundle
-$ bin/rails server
+$ rails server
 ```
 
 test:
 ```
-$ ruby test/helpers/repos_helper_test.rb
+$ rails test
 ```
