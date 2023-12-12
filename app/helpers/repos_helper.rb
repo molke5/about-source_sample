@@ -7,22 +7,6 @@ module ReposHelper
 	class << self
 
 		def get_repos
-			# return [
-			# 	{
-			# 		name: 'test',
-			# 		last_commit: 'gfy'
-			# 	},
-			# 	{
-			# 		name: 'test2',
-			# 		last_commit: 'this commit message is really long to test what it looks like if the commit message is really long'
-			# 	},
-			# 	{
-			# 		name: 'test3',
-			# 		last_commit: 'hello my name is fred'
-			# 	}
-			# ]
-			# repos = []
-
 			repos = ApplicationHelper.get_json(GET_REPOS_URL)
 			return nil if repos.blank?
 
